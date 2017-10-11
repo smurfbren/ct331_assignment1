@@ -1,0 +1,7 @@
+-The linked list requires more memory if in reverse as it is moderately complex, Reverse() should only need to make one pass of the
+list
+
+
+-To make it less memory intensive you could iterate through the main list. Move each node to the front of the result list as you go. It's
+like doing a Push() operation with each node, except you use pointer re-arrangement on the existing node instead of allocating a new node. You can use MoveNode() to do most
+of the work, or hand code the pointer re-arrangement
